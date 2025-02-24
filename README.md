@@ -1,5 +1,7 @@
 # 📌 Reddit Sentiment Analysis Using Azure & NLP
 
+![free-reddit-logo-icon-2436-thumb](https://github.com/user-attachments/assets/40c41c0d-bd10-4e7e-b982-214df3f2d0ed)
+
 ## 🔍 About the Project
 
 This project is designed to extract, process, and analyze real-time comments from Reddit, storing them in Azure Storage for further sentiment analysis. The extracted comments undergo sentiment classification using VADER and BERT NLP models, and the results are visualized for insights.
