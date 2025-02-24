@@ -123,11 +123,66 @@ python visualize_results.py
 - Data extraction and real-time processing using Reddit API.
 - Creating impactful data visualizations to derive insights.
 
+## 📊 Use Cases & Applications  
+This project can be used in **various real-world applications**, including:
+
+### 🔹 1. Social Media Monitoring  
+- Analyze Reddit discussions on **trending topics**.  
+- Understand **public sentiment** on emerging news stories.
+
+### 🔹 2. Brand Sentiment Analysis  
+- Monitor **customer feedback** on brands or products.  
+- Compare **positive vs. negative sentiments** over time.
+
+### 🔹 3. Stock Market & Financial Analysis  
+- Track **sentiment on finance-related subreddits** to predict **market trends**.  
+- Identify how **news affects stock prices**.
+
+### 🔹 4. Political & Social Analysis  
+- Analyze public opinions on **government policies and elections**.  
+- Detect changes in **political sentiment over time**.
+
+
+
+## 🚀 Why This Project is Important  
+### ✅ Scalability  
+- Uses **Azure Cloud Services**, making it **scalable & resilient** to handle **large volumes of streaming data**.
+
+### ✅ AI-Powered Insights  
+- Combines **rule-based NLP (VADER)** with **deep learning (BERT)** for **high-accuracy sentiment classification**.
+
+### ✅ Big Data Processing  
+- Uses **Databricks & Azure Synapse Analytics** to handle **high-speed processing & structured querying**.
+
+### ✅ Real-World Business Applications  
+- Can be used by **businesses, researchers, or analysts** to track **public opinion trends in real-time**.
+
+## ⚠ Errors & Troubleshooting
+
+### ❌ Issue: Unable to Access Azure Storage  
+✅ **Solution**: Ensure Azure Storage Connection String is correctly configured.
+
+### ❌ Issue: Reddit API Authentication Fails  
+✅ **Solution**: Double-check your Client ID, Secret, and User Agent.
+
+### ❌ Issue: Sentiment Model Not Found  
+✅ **Solution**: Install missing dependencies:  
+
+```bash
+pip install transformers
+```
+
 ## 📢 Future Enhancements
 
 - Implementing **Topic Modeling (LDA)** for deeper insights.
 - Enhancing sentiment classification with **fine-tuned transformer models**.
 - Deploying a **real-time dashboard** for monitoring sentiment trends.
+
+## 📜 References & Credits  
+- **[Reddit API Docs](https://www.reddit.com/dev/api/)** – Official API documentation.  
+- **[Azure Blob Storage](https://docs.microsoft.com/en-us/azure/storage/)** – Microsoft Azure documentation.  
+- **[Azure Synapse Analytics](https://docs.microsoft.com/en-us/azure/synapse-analytics/)** – Big Data querying with SQL.  
+- **[Hugging Face Transformers](https://huggingface.co/transformers/)** – Pre-trained NLP models.  
 
 ## 🚀 Contributions & Feedback
 
