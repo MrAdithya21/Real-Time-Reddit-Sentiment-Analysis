@@ -19,20 +19,26 @@ This project is designed to extract, process, and analyze real-time comments fro
 3. **Data Processing** - Transforming raw JSON comments into structured CSV.
 4. **Sentiment Analysis** - Using VADER and BERT for sentiment classification.
 5. **Data Visualization** - Creating insightful charts to understand trends and user engagement.
+   ![image](https://github.com/user-attachments/assets/f74f2ece-6a06-4d96-a22b-3c32bb3f0a1d)
+
 
 ## 📜 Step-by-Step Workflow
 
 ### 🔹 1. Extracting Reddit Comments
 - The script fetches live comments from the `r/technology` subreddit using `praw`.
 - Each comment's text, timestamp, and author are stored.
+  
+![image](https://github.com/user-attachments/assets/fdee1237-4f6f-4409-8aed-9f7a32e93d7e)
 
 ### 🔹 2. Storing Data in Azure Storage
 - The extracted comments are pushed into Azure Storage Queue.
 - A consumer script retrieves and stores them in Azure Blob Storage for further processing.
 
 ### 🔹 3. Converting JSON to CSV
-- JSON data stored in Azure Blob is retrieved and structured into a CSV format.
+- JSON data stored in Azure Blob is processed using databricks and derived positive, negative and neutral labels and structured into a CSV format.
 - The CSV file is used for further processing and analysis.
+  
+![image](https://github.com/user-attachments/assets/89412974-1c46-47f6-bdd3-9680e8dd0cc3)
 
 ### 🔹 4. Sentiment Analysis with NLP Models
 - **VADER** is used for quick lexicon-based sentiment analysis.
@@ -129,4 +135,4 @@ Feel free to contribute by opening a PR or suggesting improvements!
 
 ---
 
-**🔗 Author:** [Your GitHub Profile](https://github.com/your-profile)
+**🔗 Author:** https://github.com/MrAdithya21
